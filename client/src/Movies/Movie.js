@@ -37,9 +37,9 @@ const Movie = ({ savedList, setSavedList, addToSavedList }) => {
       <div className='save-button' onClick={() => saveMovie(movie)}>
         Save
 			</div>
-      <div className='delete-button' onClick={() => deleteMovie(movie)}>
+      <button className='delete-button' onClick={() => deleteMovie(movie)}>
         Delete
-			</div>
+			</button>
     </div>
   )
 }
